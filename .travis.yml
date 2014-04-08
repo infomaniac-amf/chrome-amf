@@ -1,8 +1,0 @@
-env:
-  global:
-    - CI_HOME=`pwd`/meta_request
-script: sh -c 'cd meta_request && rake'
-gemfile: meta_request/Gemfile
-rvm:
-  - 1.9.3
-  - 2.0.0
